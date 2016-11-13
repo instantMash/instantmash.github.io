@@ -1,0 +1,216 @@
+/* global */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* site header */
+
+.site-header {
+  background: #eee;
+}
+
+.site-logo {
+  display: block;
+  padding: 1em;
+  background: url(../images/logo-placeholder.png) no-repeat right 15px center;
+}
+
+.site-logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.7em;
+  font-family: 'Arbutus Slab', serif;
+  font-weight: normal;
+}
+
+.site-logo p {
+  margin: 0;
+  padding-top: .25em;
+  font-size: 1.25em;
+  font-family: 'Arbutus Slab', serif;
+  text-transform: lowercase;
+}
+
+.site-nav {
+  font-size: .9375em;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif
+}
+
+.site-nav a {
+  display: block;
+  border-bottom: 1px solid grey;
+  text-transform: uppercase;
+  padding: .85em;
+  letter-spacing: .025em;
+}
+
+/* portfolio grid */
+
+.portfolio-link {
+  display: block;
+  margin: 1em auto 0 auto;
+  text-align: center;}
+
+
+.project-name, .project-keywords {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.project-name {
+  font-size: .875em;
+  font-weight: 700;
+  padding: .5em;
+}
+
+.project-keywords {
+  font-size: .75em;
+}
+
+/* about me */
+
+.about-me {
+  background: #eee;
+  padding: 1em 1em 0 1em;
+}
+
+.about-me h3 {
+  font-family: 'Arbutus Slab', serif;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.about-me p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+.headshot {
+  display: block;
+  margin: 0 auto;
+}
+
+/* site footer */
+
+.site-footer {
+  background: black;
+  padding: 2em;
+}
+
+.site-footer address, .social-links a {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-style: normal;
+  letter-spacing: .025em;
+  line-height: 1.75em;
+}
+
+.address-name {
+  font-weight: 700;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  max-width: 28em;
+  margin: 1em auto 0 auto;
+}
+
+.social-links a {
+  display: block;
+  width: 4.25em;
+  text-align: center;
+  padding-top: 4.5em;
+}
+
+.linkedin-icon {
+  background: url(../images/linkedin-icon.svg) top center no-repeat;
+}
+
+.github-icon {
+  background: url(../images/github-icon.svg) top center no-repeat;
+}
+
+.codepen-icon {
+  background: url(../images/codepen-icon.svg) top center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*trailing white space madness*/
