@@ -18,6 +18,10 @@ img {
   max-width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
 /* site header */
 
 .site-header {
@@ -33,7 +37,7 @@ img {
 .site-logo h1 {
   margin: 0;
   padding: 0;
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-family: 'Arbutus Slab', serif;
   font-weight: normal;
 }
@@ -41,7 +45,7 @@ img {
 .site-logo p {
   margin: 0;
   padding-top: .25em;
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-family: 'Arbutus Slab', serif;
   text-transform: lowercase;
 }
@@ -155,6 +159,84 @@ img {
 .codepen-icon {
   background: url(../images/codepen-icon.svg) top center no-repeat;
 }
+
+
+/* media queries */
+
+@media screen and (min-width: 400px) {
+  .site-logo h1 {
+    font-size: 2em;
+  }
+
+  .site-logo p {
+    font-size: 1.4em;
+  }
+
+  .project-name {
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em;
+  }
+
+  .project-keywords {
+    font-size: .8em;
+  }
+
+}
+
+@media screen and (min-width: 470px) {
+  .column-wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .site-nav a {
+    display: inline-block;
+    border-bottom: none;
+    padding: .85em 1.5em;
+  }
+
+  .site-logo {
+    background-position: left  center;
+    padding-left: 90px;
+  }
+
+  .thumbnail-grid .column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-link {
+    width: 50%;
+    padding: 0 .25em;
+  }
+
+}
+
+@media screen and  (min-width: 900px) {
+  .portfolio-link {
+    width: 33.33333%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
