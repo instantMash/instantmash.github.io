@@ -25,18 +25,18 @@ figure {
   max-width: 1200px;
 }
 
-/* Clear floats on .thumb-wrapper
+/* Clear floats with psuedo element
 https://css-tricks.com/pseudo-element-roundup/ */
 
-.column-wrapper:before,
-.column-wrapper:after {
+.clear:before,
+.clear:after {
   content:"";
   display:table;
 }
-.column-wrapper:after {
+.clear:after {
   clear:both;
 }
-.column-wrapper {
+.clear {
   zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
