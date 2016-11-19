@@ -1,5 +1,9 @@
 /* global */
 
+.column-wrapper {
+  outline: 1px solid blue;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,6 +24,21 @@ img {
 
 figure {
   margin: 0;
+}
+
+/* Clear floats on .thumb-wrapper
+https://css-tricks.com/pseudo-element-roundup/ */
+
+.column-wrapper:before,
+.column-wrapper:after {
+  content:"";
+  display:table;
+}
+.column-wrapper:after {
+  clear:both;
+}
+.column-wrapper {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /* site header */
@@ -53,7 +72,7 @@ figure {
 .site-nav {
   font-size: .9375em;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .site-nav a {
@@ -64,7 +83,19 @@ figure {
   letter-spacing: .025em;
 }
 
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.portfolio .portfolio-nav {
+  color: red;
+}
+
 /* portfolio grid */
+
+.thumbnail-grid {
+  padding-bottom: 1em;
+}
 
 .portfolio-link {
   display: block;
@@ -92,13 +123,11 @@ figure {
 
 .about-me {
   background: #eee;
-  padding: 1em 1em 0 1em;
 }
 
 .about-me h3 {
   font-family: 'Arbutus Slab', serif;
   font-size: 1.5em;
-  margin-top: 0;
 }
 
 .about-me p {
@@ -190,6 +219,12 @@ figure {
     margin: 0 auto;
   }
 
+  .portfolio .portfolio-nav,
+  .contact .contact-nav,
+  .resume .resume-nav {
+    border-bottom: .3em solid red; /* Highlight active page in .site-nav */
+  }
+
   .site-nav a {
     display: inline-block;
     border-bottom: none;
@@ -201,16 +236,15 @@ figure {
     padding-left: 90px;
   }
 
-  .thumbnail-grid .column-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .portfolio-link {
     width: 50%;
+    float: left;
     padding: 0 .25em;
   }
 
+  .portfolio-link img {
+    width: 100%;
+  }
 }
 
 @media screen and  (min-width: 900px) {
