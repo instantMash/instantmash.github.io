@@ -1,9 +1,4 @@
 /* global */
-
-.column-wrapper {
-  outline: 1px solid blue;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -24,6 +19,10 @@ img {
 
 figure {
   margin: 0;
+}
+
+.column-wrapper {
+  max-width: 1200px;
 }
 
 /* Clear floats on .thumb-wrapper
@@ -122,8 +121,13 @@ https://css-tricks.com/pseudo-element-roundup/ */
 /* about me */
 
 .about-me {
-  background: #eee;
+  background-color:  #eee;
 }
+
+.about-me .column-wrapper {
+  background: url(../images/profile-image-placeholder.jpg) center bottom no-repeat;
+  padding: 0 10px 300px 10px;
+  }
 
 .about-me h3 {
   font-family: 'Arbutus Slab', serif;
@@ -135,11 +139,6 @@ https://css-tricks.com/pseudo-element-roundup/ */
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 0;
-}
-
-.headshot {
-  display: block;
-  margin: 0 auto;
 }
 
 /* site footer */
@@ -245,11 +244,35 @@ https://css-tricks.com/pseudo-element-roundup/ */
   .portfolio-link img {
     width: 100%;
   }
+
+  .about-me .column-wrapper {
+    padding: 0 0 300px 0;
+  }
 }
+
+@media screen and (min-width: 670px) {
+  .about-me .column-wrapper {
+    background-position: bottom right;
+    min-height: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+  }
+}
+
 
 @media screen and  (min-width: 900px) {
   .portfolio-link {
     width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .about-me p {
+    width: 40em;
+  }
+
+  .about-me .column-wrapper {
+    background-position: 40em bottom;
   }
 }
 
