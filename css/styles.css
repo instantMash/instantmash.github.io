@@ -182,7 +182,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
   justify-content: space-around;
   max-width: 28em;
   margin: 1em auto 0 auto;
-  height: 4em;
+  height: 4em; /* Add height to fix icon spacing in IE11 */
 }
 
 .social-links a {
@@ -307,81 +307,3 @@ https://css-tricks.com/pseudo-element-roundup/ */
     background-position: 37em bottom;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*trailing white space madness*/
