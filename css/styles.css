@@ -160,7 +160,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
 
 .site-footer {
   background: black;
-  padding: 2em;
+  padding: 2em 2em 3em 2em;
 }
 
 .site-footer address, .social-links a {
