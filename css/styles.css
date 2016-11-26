@@ -81,7 +81,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
 }
 
 .site-nav {
-  font-size: .9375em;
+  font-size: 0.9375em;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -90,8 +90,8 @@ https://css-tricks.com/pseudo-element-roundup/ */
   display: block;
   border-bottom: 1px solid #444;
   text-transform: uppercase;
-  padding: .85em;
-  letter-spacing: .025em;
+  padding: 0.85em;
+  letter-spacing: 0.025em;
   color: white;
 }
 
@@ -122,9 +122,9 @@ https://css-tricks.com/pseudo-element-roundup/ */
 }
 
 .project-name {
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: 700;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .project-keywords {
@@ -139,7 +139,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
 
 .about-me .column-wrapper {
   background: url(../img/headshot.jpg) center bottom no-repeat;
-  padding: 1em .5em 18.75em .5em;
+  padding: 1em 0.5em 18.75em 0.5em;
   }
 
 .about-me h3 {
@@ -169,7 +169,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
   text-transform: uppercase;
   font-size: 1em;
   font-style: normal;
-  letter-spacing: .025em;
+  letter-spacing: 0.025em;
   line-height: 1.75em;
 }
 
@@ -212,11 +212,11 @@ https://css-tricks.com/pseudo-element-roundup/ */
   .project-name {
     font-size: 1em;
     font-weight: 700;
-    padding: .5em;
+    padding: 0.5em;
   }
 
   .project-keywords {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
 }
@@ -239,7 +239,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
     display: inline-block;
     border-bottom: none;
     border-left: 1px solid #444;
-    padding: .85em 1.5em;
+    padding: 0.85em 1.5em;
   }
 
   .site-nav a:last-child {
@@ -249,7 +249,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
   .portfolio-link {
     width: 50%;
     float: left;
-    padding: 0 .25em;
+    padding: 0 0.25em;
   }
 
   .portfolio-link img {
@@ -281,9 +281,9 @@ https://css-tricks.com/pseudo-element-roundup/ */
 
   .site-logo p {
     padding-left: 1.4em;
-    padding-top: .5em;
+    padding-top: 0.5em;
     font-size: 1.25em;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
   }
 
   .site-nav {
