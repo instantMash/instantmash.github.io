@@ -138,7 +138,7 @@ https://css-tricks.com/pseudo-element-roundup/ */
 }
 
 .about-me .column-wrapper {
-  background: url(../images/headshot.jpg) center bottom no-repeat;
+  background: url(../img/headshot.jpg) center bottom no-repeat;
   padding: 1em .5em 18.75em .5em;
   }
 
@@ -193,15 +193,15 @@ https://css-tricks.com/pseudo-element-roundup/ */
 }
 
 .linkedin-icon {
-  background: url(../images/linkedin-icon.svg) top center no-repeat;
+  background: url(../img/linkedin-icon.svg) top center no-repeat;
 }
 
 .github-icon {
-  background: url(../images/github-icon.svg) top center no-repeat;
+  background: url(../img/github-icon.svg) top center no-repeat;
 }
 
 .codepen-icon {
-  background: url(../images/codepen-icon.svg) top center no-repeat;
+  background: url(../img/codepen-icon.svg) top center no-repeat;
 }
 
 
