@@ -35,21 +35,6 @@ figure {
 
 }
 
-/* Clear floats with psuedo element
-https://css-tricks.com/pseudo-element-roundup/ */
-
-.clear:before,
-.clear:after {
-  content:"";
-  display:table;
-}
-.clear:after {
-  clear:both;
-}
-.clear {
-  zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-
 /* site header */
 
 .site-header {
@@ -246,10 +231,15 @@ https://css-tricks.com/pseudo-element-roundup/ */
     border-right: 1px solid #444;
   }
 
+  .thumbnail-grid .column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .portfolio-link {
     width: 50%;
-    float: left;
     padding: 0 0.25em;
+    margin: 1em 0 0 0;    
   }
 
   .portfolio-link img {
