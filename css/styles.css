@@ -190,9 +190,16 @@ figure {
 }
 
 /* portfolio-section */
+.portfolio-section {
+  max-width: 900px;
+}
+
+.portfolio-page-details .column-wrapper {
+  max-width: 900px;
+}
 
 .portfolio-section {
-  padding: 2em;
+  padding: 2em 0;
 }
 
 .portfolio-section h1 {
@@ -222,6 +229,17 @@ figure {
   margin-top: .25em;
   text-transform: uppercase;
   font-size: .875em;
+}
+
+.text-divider {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+/* tweaks and nudges */
+
+.backwoods .portfolio-section h1 {
+  margin-left: -8px; // Nudge h1 for optical alignment
 }
 
 /* media queries */
@@ -268,11 +286,11 @@ figure {
   .thumbnail-grid .column-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .portfolio-link {
     width: 50%;
-    padding: 0 0.25em;
     margin: 1em 0 0 0;
   }
 
@@ -301,10 +319,10 @@ figure {
 
   .site-logo h1 {
     font-size: 4.5em;
+    margin-left: -30px; // Nudge logo text for optical alignment.
   }
 
   .site-logo p {
-    padding-left: 1.4em;
     padding-top: 0.5em;
     font-size: 1.25em;
     letter-spacing: 0.05em;
