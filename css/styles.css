@@ -236,10 +236,56 @@ figure {
   padding-right: .5em;
 }
 
+.brochure-grid img {
+  border: 1px solid #ddd;
+}
+
 /* tweaks and nudges */
 
+/* Nudge h1 for optical alignment */
 .backwoods .portfolio-section h1 {
-  margin-left: -8px; // Nudge h1 for optical alignment
+  margin-left: -8px;
+}
+
+.kendalls .portfolio-section h1 {
+  margin-left: -14px;
+}
+
+.terminal-gravity .portfolio-section h1 {
+  margin-left: -22px;
+}
+
+.large-format .portfolio-section h1 {
+  margin-left: -18px;
+}
+
+.logos .portfolio-section h1 {
+  margin-left: -18px;
+}
+
+.brochures .portfolio-section h1 {
+  margin-left: -8px;
+}
+
+.att .portfolio-section h1 {
+  margin-left: -14px;
+}
+
+.medicare .portfolio-section h1 {
+  margin-left: -16px;
+}
+
+.cascade .portfolio-section h1 {
+  margin-left: -17px;
+}
+
+.att .portfolio-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-border {
+  border: 1px solid #ddd;
 }
 
 /* media queries */
@@ -338,6 +384,18 @@ figure {
   .portfolio-link {
     width: 33.33333%;
   }
+
+  .brochure-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .brochure-grid div {
+    width: 49%;
+    margin-bottom: 1em;
+  }
+
 }
 
 @media screen and (min-width: 1060px) {
