@@ -132,7 +132,7 @@ figure {
 
 .about-me .column-wrapper {
   background: url(../img/headshot.jpg) center bottom no-repeat;
-  padding: 1em 0.5em 18.75em 0.5em;
+  padding: 1em 1em 18.75em 1em;
   }
 
 .about-me h3 {
@@ -140,7 +140,7 @@ figure {
   font-size: 3em;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: -21px; /* Move left for optical alignment */
+  text-transform: lowercase;
 }
 
 .about-me p {
@@ -208,7 +208,7 @@ figure {
 }
 
 .portfolio-section {
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 
 .portfolio-section h1 {
@@ -216,6 +216,7 @@ figure {
   font-size: 2.125em;
   font-weight: normal;
   margin: 0;
+  text-transform: lowercase;
 }
 
 .portfolio-section p {
@@ -357,6 +358,23 @@ figure {
     padding: 1em 0 18.75em 0;
   }
 
+  .about-me h3 {
+    margin-left: -21px; /* Move left for optical alignment */
+  }
+
+  .about-me h3:first-letter {
+    text-transform: uppercase;
+}
+
+  .portfolio-section {
+    padding: 2em 0;
+  }
+
+  .portfolio-section h1:first-letter {
+    text-transform: uppercase;
+
+}
+
   /* tweaks and nudges */
 
   /* Nudge h1 for optical alignment */
@@ -434,7 +452,7 @@ figure {
 
   .site-logo h1 {
     font-size: 4.5em;
-    margin-left: -30px; // Nudge logo text for optical alignment.
+    margin-left: -20px; // Nudge logo text for optical alignment.
   }
 
   .site-logo p {
@@ -442,7 +460,7 @@ figure {
     font-size: 1.25em;
     letter-spacing: 0.05em;
     position: relative;
-    left: 217px;
+    left: 227px;
   }
 
   .site-nav {
