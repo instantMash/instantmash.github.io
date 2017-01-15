@@ -186,6 +186,10 @@ figure {
   padding-top: 4.5em;
 }
 
+.behance-icon {
+  background: url(../img/behance-icon.svg) top center no-repeat;
+}
+
 .linkedin-icon {
   background: url(../img/linkedin-icon.svg) top center no-repeat;
 }
@@ -224,7 +228,7 @@ figure {
   font-size: 1em;
   line-height: 1.5em;
   margin: .75em 0;
-  max-width: 38em;
+  max-width: 40em;
 }
 
 .portfolio-section h2 {
@@ -250,7 +254,10 @@ figure {
   border: 1px solid #ddd;
 }
 
-
+.logos .portfolio-section img {
+  display: block;
+  margin: 0 auto;
+}
 
 .image-border {
   border: 1px solid #ddd;
