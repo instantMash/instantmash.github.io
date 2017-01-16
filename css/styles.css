@@ -468,6 +468,7 @@ figure {
     letter-spacing: 0.05em;
     position: relative;
     left: 227px;
+    display: inline-block; /* Fix horizontal scrolling */
   }
 
   .site-nav {
