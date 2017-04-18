@@ -263,6 +263,13 @@ figure {
   border: 1px solid #ddd;
 }
 
+/* Portfolio customizations */
+
+.terminal-gravity .portfolio-section img {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Next & Prev links */
 
 .prev-next {
@@ -434,7 +441,6 @@ figure {
 }
 
 @media screen and (min-width: 600px) {
-
   .next {
     float: right;
     text-align: right;
@@ -443,6 +449,11 @@ figure {
   .prev {
     float: left;
     text-align: left;
+  }
+
+  .terminal-bottle-group img {
+    float: left;
+    width: 50%;
   }
 
 }
